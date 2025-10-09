@@ -1,0 +1,151 @@
+# ============================================
+# FlowForge Framework
+# ============================================
+.flowforge/logs/
+.flowforge/cache/
+.flowforge/*
+.task-times.json
+TASK_REPORT_*.md
+*.flowforge.tmp
+commands/
+.claude/*
+documentation/ffdocs
+run_ff_command.sh
+ffReports/
+
+# ============================================
+# Node.js & NPM
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.yarn
+.pnp.*
+package-lock.json
+
+# ============================================
+# Test Coverage & Reports
+# ============================================
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+junit.xml
+
+# ============================================
+# Build & Distribution
+# ============================================
+dist/
+build/
+*.local
+*.production
+out/
+
+# ============================================
+# Vue.js & Vite
+# ============================================
+.vite/
+.vite-inspect/
+.nuxt/
+.output/
+.cache/
+
+# ============================================
+# Environment & Configuration
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.p12
+
+# ============================================
+# Docker & Container
+# ============================================
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ============================================
+# Monitoring & Logs
+# ============================================
+logs/
+*.log
+monitoring/grafana/data/
+monitoring/prometheus/data/
+
+# ============================================
+# IDE & Editors
+# ============================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Temporary & Backup Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.*.sw[a-z]
+.lock-wscript
+
+# ============================================
+# Security & Credentials
+# ============================================
+credentials.json
+secrets.yml
+*.credentials
+.npmrc
+.yarnrc
+auth.json
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo

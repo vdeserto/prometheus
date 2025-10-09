@@ -1,0 +1,25 @@
+{
+  "name": "prometheus-vue-metrics",
+  "version": "1.0.0",
+  "description": "Vue 3 Prometheus Metrics Integration - PoC",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
+    "@vue/test-utils": "^2.4.0",
+    "happy-dom": "^14.0.0",
+    "jsdom": "^27.0.0",
+    "vitest": "^1.6.0",
+    "vue": "^3.4.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
